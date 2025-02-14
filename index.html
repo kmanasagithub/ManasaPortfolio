@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="active">
+        <a href="#home" class="logo">Manasa</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <!-- bars background -->
+    <div class="bars-box">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- home section -->
+     <section class="home active">
+        <div class="home-detail">
+            <h1>Kurella Manasa</h1>
+            <h2>I'm a 
+                <span style="--i:2;" data-text="Coder">Coder</span>
+                <span style="--i:1;" data-text="Developer">Developer</span>
+            </h2>
+            <p>I am Manasa Kurella, a Computer Science and Engineering student with a 9.2 CGPA from Sri Venkatesa Perumal College of Engineering & Technology, Puttur. Passionate about full-stack development, I have hands-on experience in React.js, Node.js, Express.js, and MongoDB, along with creating technical documentation using Docusaurus. I enjoy solving complex coding challenges, having solved 150+ LeetCode and 200+ GeeksforGeeks problems, and continuously strive to enhance my problem-solving and development skills.</p>
+            <div class="btn-sci">
+                <a href="resume.pdf" download="resume.pdf" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/kmanasagithub"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kurella-manasa-65b6a6255"><i class="bx bxl-linkedin"></i></a>
+                    <a href="mailto:kurellamanasa204@gmail.com"><i class="bx bxs-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/myimage.png">
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- services section -->
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I specialize in full-stack web development using React.js, Node.js, Express.js, MongoDB, and SQL, with expertise in building dynamic, responsive, and secure web applications. My experience includes developing platforms like WanderLust (Airbnb-inspired), Book Store, and Vendor Food Registry Dashboard, focusing on interactive UI/UX, authentication, and seamless database management. I also create technical documentation with Docusaurus, integrating custom plugins for enhanced navigation. Additionally, I have experience in DevOps & deployment using Docker, Kubernetes, and GitHub Pages.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-curly' ></i>
+                </div>
+                <h3>Coder</h3>
+                <p>With a strong foundation in data structures and algorithms, I have solved 150+ problems on LeetCode and 200+ on GeeksforGeeks, demonstrating my problem-solving skills in Java, C, and Python. I am MERN stack certified from Apna College, with hands-on experience in full-stack development and API integrations. My expertise in Java DSA, backed by an NPTEL certification, allows me to create optimized solutions for complex coding challenges.</p>
+                <div class="coding">
+                    <h5>Coding Platforms</h5>
+                    <div class="platforms">
+                        <a href="https://leetcode.com/u/kurellamanasa/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="30">
+                        </a>
+                        <span>Leetcode</span>                        
+                    </div>
+
+                    <div class="platforms">
+                        <a href="https://www.geeksforgeeks.org/user/kurellamanasa/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GeeksforGeeks" width="40">
+                        </a>           
+                        <span>Geeks for Geeks</span>          
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- resume section -->
+    <section class="resume" id="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">
+                
+                </p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">
+                        My <span>Experience</span>
+                    </h2>
+                    <div class="resume-list">
+                        <div class="resume-item" style="height:35rem">
+                            <p class="year">2024 Aug - 2025 Jan</p>
+                            <h3>Software Engineer Intern</h3>
+                            <p class="company">Scalarhub</p>
+                            <p>Developed a user-friendly documentation website using Docusaurus, integrating plugins and customizing components for seamless navigation.Created and documented RESTful APIs with Postman, ensuring best practices in versioning, validation, and error handling.Designed and implemented a dynamic product interface using React.js, enhancing user experience and interactivity.Gained hands-on experience in full-stack development, working with Node.js, Express.js, MongoDB, and React.js to build scalable applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">
+                        My <span>Education</span>
+                    </h2>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus cupiditate illum repellat quisquam debitis, harum optio corporis modi quia!
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2021 - present</p>
+                            <h3>Bachelors of Technology - CSE</h3>
+                            <p class="company">Sri Venkates Perumal College of Engineering and technology</p> 
+                            <p>CGPA: <b>9.2</b></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2019 - 2021</p>
+                            <h3>Intermediate - MPC</h3>
+                            <p class="company">Himaja Junior College</p> 
+                            <p>CGPA: <b>9.7</b></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2018 - 2019</p>
+                            <h3>SSC - Xth</h3>
+                            <p class="company">Himaja English Medium High School</p> 
+                            <p>CGPA : <b>10</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">
+                        My <span>Skills</span>
+                    </h2>
+                    <p class="desc">
+                        <p class="desc">
+                            I am a skilled full-stack developer with expertise in React.js, Node.js, Express.js, and MongoDB, capable of building dynamic and secure web applications. My experience includes developing and documenting RESTful APIs, along with creating user-friendly technical documentation using Docusaurus. With a strong problem-solving mindset, I have solved 150+ LeetCode and 200+ GeeksforGeeks challenges, showcasing my proficiency in data structures and algorithms. Additionally, my ability to integrate DevOps tools like Docker and Kubernetes ensures efficient deployment and scalability of applications.
+                        </p>
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class="bx bxl-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-css3"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-javascript"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-nodejs"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-mongodb"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-docker'></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bx bxl-java"></i>
+                            <span>JAVA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">
+                        About <span>Me</span>
+                    </h2>
+                    <p class="desc">
+                        I am Manasa Kurella, a Computer Science and Engineering student with a 9.2 CGPA from Sri Venkatesa Perumal College of Engineering & Technology, Puttur. Passionate about full-stack development have a hands on experience in MERN stack.I enjoy solving complex coding challenges and continuously strive to enhance my problem-solving and development skills.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name<span> Kurella Manasa</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Female</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>21 Yeasr Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Tirupati</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Indian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>Fresher</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Part Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>kurellamanasa204@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>Telugu, English, Hindi</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <div class="number">01</div>
+                    <h3>WanderLust</h3>
+                    <p>WanderLust is a full-stack web application inspired by Airbnb, allowing users to explore travel accommodations, submit reviews, and manage listings with secure authentication via Passport.js. It features a dynamic and responsive interface built with EJS and Bootstrap, offering advanced filtering, search capabilities, and a community-driven review system. The backend is developed using Node.js, Express.js, and MongoDB, ensuring efficient data handling, session management, and custom error handling.</p>
+                    <div class="tech">
+                        <p>Html5, Css3, JavaScript, Ejs, Express.js, Mongodb, Node.js, Github, Passport.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/kmanasagithub/Majorproject"><i class="bx bxl-github"></i><span>Giithub Repositary</span></a>
+                        <a href="https://wanderlust-flti.onrender.com/listings"><i class='bx bxs-right-arrow-alt'></i><span>Live Project</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <div class="number">02</div>
+                    <h3>API Documentation</h3>
+                    <p>ScalarHub Documentation is a comprehensive documentation platform built using Docusaurus. It provides structured guides and API references for ScalarHub, ensuring seamless navigation with custom sidebars and plugins. The platform integrates OpenAPI and Swagger for detailed API documentation, allowing developers to explore and test endpoints efficiently. Designed for clarity and accessibility, this project enhances developer experience by offering well-organized, easy-to-navigate, and interactive documentation.</p>
+                    <div class="tech">
+                        <p>Docusaurus, Postman, Mdx, Github Pages</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/kmanasagithub/docs"><i class="bx bxl-github"></i><span>Giithub Repositary</span></a>
+                        <a href="https://kmanasagithub.github.io/docs/guides/Overview"><i class="bx bxs-right-arrow-alt"></i><span>Live </span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <div class="number">03</div>
+                    <h3>BookStore</h3>
+                    <p>Book Store is a dynamic web application that enables users to browse, search, and manage books online with a seamless and responsive interface. Built using React.js for the frontend and Node.js, Express.js, and MongoDB for the backend, it ensures efficient data handling and user authentication. The platform features a secure signup and login system, allowing users to manage their accounts safely. With Tailwind CSS for styling, the application delivers a modern and intuitive user experience, showcasing my expertise in MERN stack development.</p>
+                    <div class="tech">
+                        <p>Html5, Css3, JavaScript, Ejs, Github</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/kmanasagithub/BookStore"><i class="bx bxl-github"></i><span>Giithub Repositary</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <div class="number">04</div>
+                    <h3>Suby Vendor DashBoard</h3>
+                    <p>The Backend_Nodejs_Suby project is a backend application structured with directories such as controllers, middlewares, models, and routes, indicating a modular architecture. The presence of an index.js file suggests it serves as the entry point for the application. While specific functionalities aren't detailed in the repository, the structure implies a focus on handling various aspects of backend development, potentially including API endpoints, middleware for request processing, and data modeling. The use of Node.js and Express.js is inferred from the common naming conventions and file structures observed in the repository.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/kmanasagithub/Backend_Nodejs_Suby"><i class="bx bxl-github"></i><span>Giithub Repositary</span></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left"><i class="bx bx-chevron-left"></i></button>
+                    <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's work Together</h2>
+                <p class="desc">Have a project idea or need assistance with web development, API integration, or problem-solving? Feel free to reach out! Whether it’s about full-stack development, technical documentation, or coding challenges, I’d love to collaborate and bring your ideas to life. You can connect with me via LinkedIn, GitHub, or Email, and I'll be happy to discuss your requirements. Let's build something amazing together!</p>
+                <div class="contact-detail">
+                    <i class="bx bxs-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>kurellamanasa204@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">,
+                    <a href="https://www.linkedin.com/in/kurella-manasa-65b6a6255"><i class="bx bxl-linkedin"></i></a>
+                    <div class="detail">
+                        <p>linkedin</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="hidden" name="access_key" value="be57e0ed-ae47-479c-b480-de7fcbec422f">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                        <textarea name="message" id="" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+     </section>
+    
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
